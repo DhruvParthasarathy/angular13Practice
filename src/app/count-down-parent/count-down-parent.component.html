@@ -1,0 +1,6 @@
+<h3>Countdown to Liftoff (via local variable)</h3>
+<button type="button" (click)="timerComponent.start()">Start</button> &nbsp;
+<button type="button" (click)="timerComponent.stop()">Stop</button> <br />
+<br />
+<div class="seconds">{{ timerComponent.seconds }}</div>
+<app-count-down-timer #timerComponent></app-count-down-timer>
